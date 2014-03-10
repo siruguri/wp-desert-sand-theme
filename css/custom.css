@@ -1,0 +1,30 @@
+.menu-outer-box {
+        width: 50px;
+	display: inline-block;
+}
+
+.menu-list {
+        margin-bottom: 5px;
+}
+.menu-list-button {
+        border: 1px solid blue;
+        float: left;
+}
+
+.menu-list-long {
+        margin-left: 5px;
+        border: 1px solid black;
+        width: 75%;
+}
+
+.menu-list-medium {
+        margin-left: 5px;
+        border: 1px solid black;
+        width: 50%;
+}
+
+.menu-list-short {
+        margin-left: 5px;
+        border: 1px solid black;
+        width: 30%;
+}

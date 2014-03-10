@@ -33,6 +33,20 @@
     	    <?php bloginfo( 'name' ); ?>
     	  </a>
 
+	  <div class="menu-outer-box">
+                <div class="menu-list">
+                        <div class="menu-list-button"></div>
+                        <div class="menu-list-long"></div>
+                </div>
+                <div class="menu-list">
+                        <div class="menu-list-button"></div>
+                        <div class="menu-list-short"></div>
+                </div>
+                <div class="menu-list">
+                        <div class="menu-list-button"></div>
+                        <div class="menu-list-medium"></div>
+                </div>
+	  </div>
     	</h1>
     	<h2><?php bloginfo( 'description' ); ?></h2>
     	<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>

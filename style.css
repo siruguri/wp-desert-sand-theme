@@ -1,10 +1,10 @@
 /*
-* Theme Name: Ice Cap
+* Theme Name: Desert Sand
 * Description: White, Minimal & Responsive
-* Author: Sayanee
-* Theme URI: http://icecap.sayan.ee
-* Author URI: http://sayan.ee/
-* Version: 1.5.6
+* Author: Sameer Siruguri
+* Theme URI: http://www.dstrategies.org/
+* Author URI: http://www.dstrategies.org/
+* Version: 1.0.0
 * Tags: one-column, flexible-width, white, custom-header, sticky-post
 * License: GNU General Public License v2.0
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,8 +14,8 @@
 * This theme, like WordPress, is licensed under the GPL.
 * Use it to make something cool, have fun, and share what you've learned with others.
 
-* Ice Cap WordPress Theme, Copyright 2012 WordPress.org
-* Ice Cap is distributed under the terms of the GNU GPL
+* Desert Sand WordPress Theme, Copyright 2014 WordPress.org
+* Desert Sand is distributed under the terms of the GNU GPL
 */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
@@ -41,7 +41,7 @@ html, button, input, select, textarea {
   font-family: sans-serif;
   color: #222222; }
 
-body {
+body p, body li {
   margin: 0;
   font-size: 1em;
   line-height: 1.4; 
@@ -282,8 +282,29 @@ body {
   transition: all 0.2s ease-out; }
 
 #wrapper {
-  width: 800px;
-  margin: 0 auto; }
+  width: 925px;
+  margin: 0 auto; 
+}
+
+#wrapper p {
+    margin-bottom: 5px;
+}
+
+#wrapper ol {
+    list-style: decimal outside none;
+    margin-left: 10px; 
+    padding-left: 1em;
+}
+
+#wrapper ul {
+    list-style: disc outside none;
+    margin-left: 0; 
+    padding-left: 1em;
+}
+
+#wrapper li {
+    padding-left: 1em;
+}
 
 div, ul, li {
   position: relative; }
@@ -878,6 +899,18 @@ footer p {
     color: #234fae;
 }
 
+/* Adding this for the MC signup form */
+#mc_embed_signup {
+    margin-left: -20px;
+    background:#fff; 
+    clear:left; 
+    font-size:14px; } 
+
+#mc_embed_signup_label {
+    padding-bottom: 2px;
+}
+
+
 @media screen and (max-width: 800px) {
   #wrapper {
     width: 90%; } }
@@ -980,6 +1013,17 @@ b, strong {
 
 em {
   font-style: itallic; }
+
+#mc-embedded-subscribe {
+    display: inline-block;
+    margin-left: 15px;
+    height: 30px;
+    width: 120px;
+}
+
+#mce-EMAIL {
+    padding-left: 5px;
+}
 
 @media print {
   * {
